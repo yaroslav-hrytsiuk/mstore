@@ -1,1 +1,3 @@
-console.log('YEAAAAAAAAAAAH!');
+$(document).ready(function() {
+    $(".dropdown-toggle").dropdown();
+});
