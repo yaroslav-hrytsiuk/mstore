@@ -1,0 +1,160 @@
+main {
+  background-image: url(../../out/img/background.jpg);
+  .slider {
+    padding: 30px 0;
+    div {
+      text-align: center;
+    }
+    img {
+      margin: auto;
+    }
+  }
+  .content {
+    margin-top: 20px;
+    .head-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      cursor: default;
+      p {
+        font-family: Ubuntu-Regular;
+        font-size: 36px;
+        margin-top: 20px;
+        span {
+          background-color: #cd3737;
+          color: #ffffff;
+          padding: 0 5px;
+        }
+      }
+    }
+    .buttons-ready {
+      display: flex;
+      justify-content: center;
+      margin: 30px 0;
+      .button {
+        background-color: #1e1e20;
+        color: white;
+        margin: 20px;
+        padding: 15px 20px;
+        width: 300px;
+        height: 100px;
+        border-radius: 10px;
+        .button-head {
+          display: flex;
+          padding-bottom: 5px;
+          img {
+            padding-right: 10px;
+          }
+          span {
+            font-family: Ubuntu-Regular;
+            font-size: 18px;
+          }
+        }
+        .button-text {
+          font-family: Ubuntu-Regular;
+          font-size: 13px;
+        }
+        &:hover {
+          background-color: #cc3333;
+          cursor: pointer;
+        }
+      }
+
+    }
+    .albums {
+      margin: 50px 0;
+      .head-albums {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        span {
+          font-family: Ubuntu-Regular;
+          font-size: 24px;
+        }
+        img {
+          line-height: 0;
+        }
+        button {
+          border: none;
+          padding: 0;
+          margin: 1px;
+          line-height: 0;
+        }
+      }
+      .albums-content {
+        div {
+          display: flex;
+          justify-content: center;
+          .body-album {
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+            border-radius: 5px;
+            margin: 0 5px;
+            .album-title {
+              display: flex;
+              align-items: center;
+              justify-content: flex-start;
+              padding: 10px 20px;
+              p {
+                font-family: Ubuntu-Bold;
+                font-size: 14px;
+                margin: 0;
+              }
+              span {
+                font-family: Ubuntu-RegularItalic;
+                font-size: 12px;
+                padding-left: 20px;
+              }
+            }
+            .rating-album {
+              display: flex;
+              justify-content: flex-start;
+              padding: 0 0 10px 20px;
+            }
+            .description-album {
+              font-family: Ubuntu-Regular;
+              font-size: 13px;
+              padding: 0 20px;
+              line-height: 20px;
+            }
+            .buy-option {
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              padding: 0 20px;
+              span {
+                font-family: Ubuntu-Bold;
+                font-size: 18px;
+              }
+              a {
+                list-style: none;
+                text-decoration: none;
+                background-color: #1e1e20;
+                color: white;
+                font-family: Ubuntu-Regular;
+                font-size: 10px;
+                padding: 5px 10px;
+                border-radius: 10px;
+              }
+              .saling {
+                .old-price {
+                  font-family: Ubuntu-Bold;
+                  font-size: 15px;
+                  padding-right: 10px;
+                }
+                .new-price {
+                  font-family: Ubuntu-Bold;
+                  font-size: 15px;
+                  background-color: #cc3333;
+                  color: #fff;
+                  padding: 0 2px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

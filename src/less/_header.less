@@ -1,6 +1,6 @@
 header {
   border-top: 2px solid #cc3333;
-  .upperHeader {
+  .upper-header {
     background-color: #2a2b2c;
     padding: 3px;
     height: 30px;
@@ -8,7 +8,7 @@ header {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    .socialIcons {
+    .social-icons {
       display: flex;
       flex-direction: row;
       a {
@@ -20,7 +20,6 @@ header {
           align-items: center;
           justify-content: center;
           font-size: 8px;
-          border: 1px transparent;
           border-radius: 50%;
           width: 16px;
           height: 16px;
@@ -30,7 +29,6 @@ header {
         &:hover {
           i {
             color: #ffffff;
-            box-shadow: 0 0 10px rgba(255,255,255,0.5);
           }
           .fa-facebook-f {
             background-color: #3a69ae;
@@ -51,7 +49,7 @@ header {
         }
       }
     }
-    .upperButtons {
+    .upper-buttons {
       display: flex;
       align-items: center;
       font-size: 13px;
@@ -64,7 +62,7 @@ header {
       .dropdown {
         .cart {
           background-color: #cc3333;
-          border: 0 transparent;
+          border: none;
           border-radius: 0 0 10px 10px;
           font-size: 13px;
           padding: 15px 15px 10px 15px;
@@ -79,6 +77,12 @@ header {
           border-radius: 0;
           .itemCart:hover {
             background-color: #eaeaea;
+          }
+          .item-cart {
+            .svg-image {
+              height: 100px;
+              width: 100px;
+            }
           }
           .dropdown-item {
             display: flex;
@@ -110,7 +114,7 @@ header {
                 }
               }
             }
-            .cartCost {
+            .cart-cost {
               display: flex;
               align-items: center;
               justify-content: space-between;
@@ -148,9 +152,11 @@ header {
     justify-content: space-around;
     align-items: center;
     padding-top: 15px;
+    background-image: url(../../out/img/background.jpg);
     .logo {
       display: flex;
       align-items: center;
+      cursor: default;
       img {
         width: auto;
         height: 50px;
@@ -162,7 +168,6 @@ header {
       }
     }
     .navbar {
-      background-color: white;
       .collapse {
         .navbar-nav {
           font-family: Ubuntu-Bold;
