@@ -75,18 +75,16 @@ header {
         .dropdown-menu {
           margin: 0;
           border-radius: 0;
-          .itemCart:hover {
+          .item-cart:hover {
             background-color: #eaeaea;
-          }
-          .item-cart {
-            .svg-image {
-              height: 100px;
-              width: 100px;
-            }
           }
           .dropdown-item {
             display: flex;
             justify-content: space-between;
+            &:active {
+              background: none;
+              color: #000000;
+            }
             .carts {
               display: flex;
               flex-direction: column;

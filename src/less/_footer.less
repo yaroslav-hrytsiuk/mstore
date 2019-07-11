@@ -1,0 +1,161 @@
+footer {
+  border-top: 5px solid #000000;
+  .head-footer {
+    background-image: url(../../out/img/background-footer.png);
+    .container {
+      .row {
+        padding: 30px 50px;
+        .col-md-3 {
+          font-family: Ubuntu-Regular;
+          font-weight: bold;
+          font-size: 16px;
+          color: white;
+          .footer-about-us {
+            font-size: 13px;
+            font-weight: normal;
+          }
+          .social-icons {
+            display: flex;
+            flex-direction: row;
+            a {
+              text-decoration: none;
+              list-style: none;
+              color: #000000;
+              i {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 12px;
+                border-radius: 50%;
+                width: 24px;
+                height: 24px;
+                margin: 0 2px;
+                background-color: #808080;
+              }
+              &:hover {
+                i {
+                  color: #ffffff;
+                }
+                .fa-facebook-f {
+                  background-color: #3a69ae;
+                }
+                .fa-basketball-ball {
+                  background-color: #e14a74;
+                }
+                .fa-crow {
+                  background-color: #36bbe2;
+                }
+                .fa-male {
+                  background-color: #14beee;
+                }
+                .fa-envelope {
+                  background-color: #f4f4f4;
+                  color: #414141;
+                }
+              }
+            }
+          }
+          .month {
+            font-family: Ubuntu-Regular;
+            font-weight: normal;
+            font-size: 13px;
+            display: flex;
+            flex-direction: column;
+            .month-border {
+              border-bottom: 1px dotted #ffffff;
+            }
+            a {
+              list-style: none;
+              text-decoration: none;
+              color: #ffffff;
+              padding: 10px 0;
+              word-spacing: 10px;
+              letter-spacing: 2px;
+            }
+          }
+          .footer-album {
+            .footer-great-album {
+              display: flex;
+              &:hover {
+                background-color: rgba(0, 0, 0, 0.5);
+              }
+              img {
+                padding: 5px;
+              }
+              .footer-description-album {
+                display: flex;
+                flex-direction: column;
+                padding: 5px;
+                span {
+                  font-family: Ubuntu-Regular;
+                  font-weight: bold;
+                  font-size: 13px;
+                  padding: 5px;
+                }
+                a {
+                  list-style: none;
+                  text-decoration: none;
+                  color: white;
+                  font-family: Ubuntu-Regular;
+                  font-weight: normal;
+                  font-size: 11px;
+                  padding: 5px;
+                  i {
+                    padding-right: 5px;
+                  }
+                }
+              }
+            }
+          }
+          .search-color {
+            color: #ffffff;
+            font-family: Ubuntu-Regular;
+            font-size: 12px;
+            padding: 5px;
+          }
+          input {
+            border: 1px solid #aaaaaa;
+            background-color: rgba(0, 0, 0, 0.3);
+            margin-bottom: 20px;
+            &::placeholder {
+              color: #aaaaaa;
+              font-family: Ubuntu-Regular;
+              font-style: italic;
+              font-size: 12px;
+            }
+            &:focus {
+              outline: none;
+            }
+          }
+          .footer-tags {
+            a {
+              text-decoration: none;
+              background-color: #2a2a2a;
+              color: white;
+              font-size: 12px;
+              font-weight: normal;
+              padding: 5px;
+              margin: 0 5px;
+              line-height: 30px;
+              &:hover {
+                background-color: transparent;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .down-footer {
+    background-color: #1b1b1b;
+    color: #2a2a2a;
+    display: flex;
+    justify-content: space-around;
+    border-top: 2px solid #000000;
+    a {
+      text-decoration: none;
+      color: #2a2a2a;
+      padding: 0 5px;
+    }
+  }
+}
