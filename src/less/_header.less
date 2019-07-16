@@ -1,143 +1,162 @@
 header {
-  border-top: 2px solid #cc3333;
+  border-top: 3px solid #cc3333;
   .upper-header {
     background-color: #2a2b2c;
-    padding: 3px;
-    height: 30px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    .social-icons {
+    .upper-header-content {
+      height: 32px;
       display: flex;
       flex-direction: row;
-      a {
-        text-decoration: none;
-        list-style: none;
-        color: #000000;
-        i {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          font-size: 8px;
-          border-radius: 50%;
-          width: 16px;
-          height: 16px;
-          margin: 0 2px;
-          background-color: #808080;
-        }
-        &:hover {
-          i {
-            color: #ffffff;
-          }
-          .fa-facebook-f {
-            background-color: #3a69ae;
-          }
-          .fa-basketball-ball {
-            background-color: #e14a74;
-          }
-          .fa-crow {
-            background-color: #36bbe2;
-          }
-          .fa-envelope {
-            background-color: #f4f4f4;
-            color: #414141;
-          }
-          .fa-vimeo-v {
-            background-color: #14beee;
-          }
-        }
-      }
-    }
-    .upper-buttons {
-      display: flex;
+      justify-content: space-between;
       align-items: center;
-      font-size: 13px;
-      color: #fff;
-      font-family: Ubuntu-Regular;
-      .login {
-        padding: 10px;
-
-      }
-      .dropdown {
-        .cart {
-          background-color: #cc3333;
-          border: none;
-          border-radius: 0 0 10px 10px;
-          font-size: 13px;
-          padding: 15px 15px 10px 15px;
-          box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+      max-width: 964px;
+      margin: 0 auto;
+      .social-icons {
+        display: flex;
+        flex-direction: row;
+        a {
+          text-decoration: none;
+          list-style: none;
+          color: #000000;
           i {
-            font-size: 16px;
-            padding: 5px 5px 0 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 13px;
+            border-radius: 50%;
+            width: 23px;
+            height: 23px;
+            margin: 0 2px;
+            background-color: rgba(128, 128, 128, 0.5);
+          }
+          &:hover {
+            i {
+              color: #ffffff;
+            }
+            .fa-facebook-f {
+              background-color: #3a69ae;
+            }
+            .fa-basketball-ball {
+              background-color: #e14a74;
+            }
+            .fa-crow {
+              background-color: #36bbe2;
+            }
+            .fa-envelope {
+              background-color: #f4f4f4;
+              color: #414141;
+            }
+            .fa-vimeo-v {
+              background-color: #14beee;
+            }
           }
         }
-        .dropdown-menu {
-          margin: 0;
-          border-radius: 0;
-          .item-cart:hover {
-            background-color: #eaeaea;
+      }
+      .upper-buttons {
+        display: flex;
+        align-items: center;
+        font-size: 13px;
+        color: #fff;
+        font-family: Ubuntu;
+        .login {
+          padding: 10px;
+
+        }
+        .dropdown {
+          .login {
+            width: auto;
           }
-          .dropdown-item {
-            display: flex;
-            justify-content: space-between;
-            &:active {
-              background: none;
-              color: #000000;
+          .cart {
+            width: 100px;
+            background-color: #cc3333;
+            border: none;
+            border-radius: 0 0 10px 10px;
+            font-size: 13px;
+            padding: 15px 15px 10px 15px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+            i {
+              font-size: 16px;
+              padding: 5px 5px 0 0;
             }
-            .carts {
-              display: flex;
-              flex-direction: column;
-              padding: 0 10px;
-              .cartrow1 {
-                display: flex;
-                justify-content: space-between;
-                span{
-                  font-family: Ubuntu-Regular;
-                  font-size: 13px;
-                }
-                p {
-                  font-family: Ubuntu-RegularItalic;
-                  font-size: 12px;
-                  padding: 1px 20px;
-                }
-              }
-              .cartrow2 {
-                display: flex;
-                justify-content: space-between;
-                img {
-                  width: auto;
-                  height: 14px;
-                  padding: 0 5px;
-                }
-              }
+          }
+          .dropdown-menu {
+            margin: 0;
+            border-radius: 0;
+            transform: translate3d(-250px, 39px, 0px) !important;
+            .item-cart:hover {
+              background-color: #eaeaea;
             }
-            .cart-cost {
+            .dropdown-item {
               display: flex;
-              align-items: center;
               justify-content: space-between;
-              width: inherit;
-              p {
-                margin: 0;
-                font-family: Ubuntu-Regular;
-                font-size: 14px;
+              &:active {
+                background: none;
+                color: #000000;
               }
-              span{
-                font-family: Ubuntu-Regular;
-                font-size: 18px;
-                color: #cc3333;
+              .carts {
+                display: flex;
+                flex-direction: column;
+                padding: 0 10px;
+                .cartrow1 {
+                  display: flex;
+                  justify-content: space-between;
+                  span{
+                    font-family: Ubuntu;
+                    font-size: 13px;
+                  }
+                  p {
+                    font-family: Ubuntu;
+                    font-style: italic;
+                    font-size: 12px;
+                    padding: 1px 20px;
+                  }
+                }
+                .cartrow2 {
+                  display: flex;
+                  justify-content: space-between;
+                  .star-rating {
+                    font-size: 12px;
+                    .active-star {
+                      color: #cc3333
+                    }
+                    &:hover {
+                      cursor: default;
+                    }
+                  }
+                  img {
+                    width: auto;
+                    height: 14px;
+                    padding: 0 5px;
+                  }
+                }
               }
-            }
-            a {
-              text-decoration: none;
-              list-style: none;
-              padding: 10px;
-              background-color: #000000;
-              color: #fff3cd;
-              font-family: Ubuntu-Light;
-              font-size: 12px;
-              i {
-                padding: 0 0 0 10px;
+              .cart-cost {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                width: inherit;
+                p {
+                  margin: 0;
+                  font-family: Ubuntu;
+                  font-size: 14px;
+                }
+                span{
+                  font-family: Ubuntu;
+                  font-size: 18px;
+                  color: #cc3333;
+                }
+              }
+              a {
+                text-decoration: none;
+                list-style: none;
+                padding: 10px;
+                background-color: #000000;
+                color: #fff3cd;
+                font-family: Ubuntu;
+                font-weight: lighter;
+                font-size: 12px;
+                i {
+                  padding: 0 0 0 10px;
+                }
               }
             }
           }
@@ -146,38 +165,60 @@ header {
     }
   }
   .menu {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding-top: 15px;
     background-image: url(../../out/img/background.jpg);
-    .logo {
+    .menu-content {
       display: flex;
+      justify-content: space-between;
       align-items: center;
-      cursor: default;
-      img {
-        width: auto;
-        height: 50px;
+      padding-top: 17px;
+      max-width: 964px;
+      margin: 0 auto;
+      .logo {
+        display: flex;
+        align-items: center;
+        cursor: default;
+        img {
+          width: auto;
+          height: 60px;
+        }
+        span {
+          font-family: Ubuntu;
+          font-size: 30px;
+          padding: 0 5px;
+        }
       }
-      span {
-        font-family: Ubuntu-Regular;
-        font-size: 30px;
-        padding: 0 10px;
-      }
-    }
-    .navbar {
-      .collapse {
-        .navbar-nav {
-          font-family: Ubuntu-Bold;
-          font-size: 14px;
-          a {
-            border-top: 3px solid transparent;
-            &:hover {
-              border-top: 3px solid #efc539;
+      .navbar {
+        padding: 0;
+        .collapse {
+          .navbar-nav {
+            font-family: Ubuntu;
+            font-weight: 900;
+            font-size: 14px;
+            a {
+              border-top: 4px solid transparent;
+              padding: 15px 0;
+              margin: 0 16px;
+              color: #000000;
+              &:hover {
+                border-top: 4px solid #efc539;
+              }
             }
           }
         }
       }
     }
+  }
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 35px;
+    right: 35px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    border-radius: 10px;
   }
 }

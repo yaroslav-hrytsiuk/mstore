@@ -16,86 +16,110 @@
 <body>
     <header>
         <div class="upper-header">
-            <div class="social-icons">
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fas fa-basketball-ball"></i></a>
-                <a href="#"><i class="fas fa-crow"></i></a>
-                <a href="#"><i class="far fa-envelope"></i></a>
-                <a href="#"><i class="fab fa-vimeo-v"></i></a>
-            </div>
-            <div class="upper-buttons">
-                <div class="login">Login / Register</div>
-                <div class="dropdown">
-                    <button class="btn btn-secondary cart" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <i class="fas fa-cart-plus"></i>Cart (2)
-                    </button>
-                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
-                        <div class="dropdown-item item-cart">
-                            <img src="out/img/cart1.png" alt="cart1">
-                            <div class="carts">
-                                <div class="cartrow1">
-                                    <span>1 x Album Title</span>
-                                    <p>by Artist</p>
-                                    <span>$14.99</span>
-                                </div>
-                                <div class="cartrow2">
-                                    <img src="out/img/stars.png" alt="stars">
-                                    <img src="out/img/x.png" alt="x">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="dropdown-divider"></div>
-                        <div class="dropdown-item item-cart">
-                            <img src="out/img/cart2.png" alt="cart2">
-                            <div class="carts">
-                                <div class="cartrow1">
-                                    <span>2 x Album Title</span>
-                                    <p>by Artist</p>
-                                    <span>$27.59</span>
-                                </div>
-                                <div class="cartrow2">
-                                    <img src="out/img/stars.png" alt="stars">
-                                    <img src="out/img/x.png" alt="x">
+            <div class="upper-header-content">
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fas fa-basketball-ball"></i></a>
+                    <a href="#"><i class="fas fa-crow"></i></a>
+                    <a href="#"><i class="far fa-envelope"></i></a>
+                    <a href="#"><i class="fab fa-vimeo-v"></i></a>
+                </div>
+                <div class="upper-buttons">
+                    <div class="login">Login / Register</div>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary cart" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-cart-plus"></i>Cart (2)
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                            <div class="dropdown-item item-cart">
+                                <img src="out/img/cart1.png" alt="cart1">
+                                <div class="carts">
+                                    <div class="cartrow1">
+                                        <span>1 x Album Title</span>
+                                        <p>by Artist</p>
+                                        <span>$14.99</span>
+                                    </div>
+                                    <div class="cartrow2">
+                                        <div class="star-rating">
+                                            <i class="fas fa-star active-star"></i>
+                                            <i class="fas fa-star active-star"></i>
+                                            <i class="fas fa-star active-star"></i>
+                                            <i class="fas fa-star active-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <img src="out/img/x.png" alt="x">
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="dropdown-divider"></div>
-                        <div class="dropdown-item">
-                            <div class="cart-cost">
-                                <p>Total delivery cost</p>
-                                <span>$42,58</span>
+                            <div class="dropdown-divider"></div>
+                            <div class="dropdown-item item-cart">
+                                <img src="out/img/cart2.png" alt="cart2">
+                                <div class="carts">
+                                    <div class="cartrow1">
+                                        <span>2 x Album Title</span>
+                                        <p>by Artist</p>
+                                        <span>$27.59</span>
+                                    </div>
+                                    <div class="cartrow2">
+                                        <div class="star-rating">
+                                            <i class="fas fa-star active-star"></i>
+                                            <i class="fas fa-star active-star"></i>
+                                            <i class="fas fa-star active-star"></i>
+                                            <i class="fas fa-star active-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <img src="out/img/x.png" alt="x">
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="dropdown-divider"></div>
-                        <div class="dropdown-item">
-                            <a href="#">View Cart <i class="fas fa-long-arrow-alt-right"></i></a>
-                            <a href="#">Proceed to Checkout <i class="fas fa-long-arrow-alt-right"></i></a>
+                            <div class="dropdown-divider"></div>
+                            <div class="dropdown-item">
+                                <div class="cart-cost">
+                                    <p>Total delivery cost</p>
+                                    <span>$42,58</span>
+                                </div>
+                            </div>
+                            <div class="dropdown-divider"></div>
+                            <div class="dropdown-item">
+                                <a href="#">View Cart <i class="fas fa-long-arrow-alt-right"></i></a>
+                                <a href="#">Proceed to Checkout <i class="fas fa-long-arrow-alt-right"></i></a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="menu">
-            <div class="logo">
-                <img src="out/img/mlogo.png" alt="logo">
-                <span>Store</span>
-            </div>
-            <nav class="navbar navbar-expand-lg navbar-light" style="">
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-item nav-link" href="#">HOME</a>
-                        <a class="nav-item nav-link" href="#">CD's</a>
-                        <a class="nav-item nav-link" href="#">DVD's</a>
-                        <a class="nav-item nav-link" href="#">NEWS</a>
-                        <a class="nav-item nav-link" href="#">PORTFOLIO</a>
-                        <a class="nav-item nav-link" href="#">CONTACT US</a>
-                    </div>
+            <div class="menu-content">
+                <div class="logo">
+                    <img src="out/img/mlogo.png" alt="logo">
+                    <span>Store</span>
                 </div>
-            </nav>
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand" href="#"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarToggler">
+                        <div class="navbar-nav">
+                            <a class="nav-item nav-link" href="#">HOME</a>
+                            <a class="nav-item nav-link" href="#">CD's</a>
+                            <a class="nav-item nav-link" href="#">DVD's</a>
+                            <a class="nav-item nav-link" href="#">NEWS</a>
+                            <a class="nav-item nav-link" href="#">PORTFOLIO</a>
+                            <a class="nav-item nav-link" href="#">CONTACT US</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
         </div>
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="out/img/arrow-top.png" alt="to top"></button>
     </header>
     <main>
         <div class="slider">
+            <div>
+                <img src="out/img/sliderImage1.jpg" alt="sliderImage">
+            </div>
             <div>
                 <img src="out/img/sliderImage1.jpg" alt="sliderImage">
             </div>
@@ -119,7 +143,7 @@
                         Donec pede justo, fringilla vel, al, vulputate eget, ercu. In enim justo, lorem ipsum
                     </div>
                 </div>
-                <div class="button">
+                <div class="button button-middle">
                     <div class="button-head">
                         <img src="out/img/headphones.png" alt="headphones image">
                         <span>LISTEN BEFORE PURCHASE</span>
@@ -140,284 +164,87 @@
             </div>
             <div class="albums">
                 <div class="head-albums">
-                <span>LATEST ARRIVALS IN MUSICA</span>
-                <img src="out/img/shape-short.png" alt="">
-                <button><img src="out/img/arrow-back.png" alt=""></button>
-                <button><img src="out/img/arrow-forward.png" alt=""></button>
-            </div>
-                <div class="albums-content">
-                <div>
-                    <div class="body-album">
-                        <img src="out/img/album1.png" alt="album cover">
-                        <div class="album-title">
-                            <p>Oh my Deer</p>
-                            <span>by Artist</span>
-                        </div>
-                        <div class="rating-album">
-                            <img src="out/img/stars.png" alt="rating">
-                        </div>
-                        <div class="description-album">
-                            <p><b>Lorem ipsum</b> dolor sit amet,con adipiscing elit, sed diam nonu.</p>
-                        </div>
-                        <div class="buy-option">
-                            <span>$14.99</span>
-                            <a href="#">ADD TO CART</a>
-                        </div>
+                    <span>LATEST ARRIVALS IN MUSICA</span>
+                    <div class="album-buttons">
+                        <img src="out/img/shape-short.png" alt="shape" class="shape-short">
+                        <button class="button-prev1"><img src="out/img/arrow-back.png" alt=""></button>
+                        <button class="button-next1"><img src="out/img/arrow-forward.png" alt=""></button>
                     </div>
                 </div>
-                <div>
-                    <div class="body-album">
-                        <img src="out/img/album2.png" alt="album cover">
-                        <div class="album-title">
-                            <p>Awaken the Hero</p>
-                            <span>by Artist</span>
-                        </div>
-                        <div class="rating-album">
-                            <img src="out/img/stars.png" alt="rating">
-                        </div>
-                        <div class="description-album">
-                            <p><b>Lorem ipsum</b> dolor sit amet,con adipiscing elit, sed diam nonu.</p>
-                        </div>
-                        <div class="buy-option">
-                            <span>$17.59</span>
-                            <a href="#">ADD TO CART</a>
-                        </div>
-                    </div>
-
-                </div>
-                <div>
-                    <div class="body-album">
-                        <img src="out/img/album3.png" alt="album cover">
-                        <div class="album-title">
-                            <p>Bad dreams</p>
-                            <span>by Artist</span>
-                        </div>
-                        <div class="rating-album">
-                            <img src="out/img/stars.png" alt="rating">
-                        </div>
-                        <div class="description-album">
-                            <p><b>Lorem ipsum</b> dolor sit amet,con adipiscing elit, sed diam nonu.</p>
-                        </div>
-                        <div class="buy-option">
-                            <span>$8.99</span>
-                            <a href="#">ADD TO CART</a>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <div class="body-album">
-                        <img src="out/img/album4.png" alt="album cover">
-                        <div class="album-title">
-                            <p>Ravenna</p>
-                            <span>by Artist</span>
-                        </div>
-                        <div class="rating-album">
-                            <img src="out/img/stars.png" alt="rating">
-                        </div>
-                        <div class="description-album">
-                            <p><b>Lorem ipsum</b> dolor sit amet,con adipiscing elit, sed diam nonu.</p>
-                        </div>
-                        <div class="buy-option">
-                            <span>$22.99</span>
-                            <a href="#">ADD TO CART</a>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <div class="body-album">
-                        <img src="out/img/album1sale.png" alt="album cover">
-                        <div class="album-title">
-                            <p>Caribou</p>
-                            <span>by Artist</span>
-                        </div>
-                        <div class="rating-album">
-                            <img src="out/img/stars.png" alt="rating">
-                        </div>
-                        <div class="description-album">
-                            <p><b>Lorem ipsum</b> dolor sit amet,con adipiscing elit, sed diam nonu.</p>
-                        </div>
-                        <div class="buy-option">
-                            <div class="saling">
-                                <span class="old-price"><del>$14.99</del></span>
-                                <span class="new-price">$8.99</span>
-                            </div>
-                            <a href="#">ADD TO CART</a>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <div class="body-album">
-                        <img src="out/img/album2sale.png" alt="album cover">
-                        <div class="album-title">
-                            <p>Aqualung</p>
-                            <span>by Artist</span>
-                        </div>
-                        <div class="rating-album">
-                            <img src="out/img/stars.png" alt="rating">
-                        </div>
-                        <div class="description-album">
-                            <p><b>Lorem ipsum</b> dolor sit amet,con adipiscing elit, sed diam nonu.</p>
-                        </div>
-                        <div class="buy-option">
-                            <div class="saling">
-                                <span class="old-price"><del>$14.99</del></span>
-                                <span class="new-price">$8.99</span>
-                            </div>
-                            <a href="#">ADD TO CART</a>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <div class="body-album">
-                        <img src="out/img/album3sale.png" alt="album cover">
-                        <div class="album-title">
-                            <p>Strange to ears</p>
-                            <span>by Artist</span>
-                        </div>
-                        <div class="rating-album">
-                            <img src="out/img/stars.png" alt="rating">
-                        </div>
-                        <div class="description-album">
-                            <p><b>Lorem ipsum</b> dolor sit amet,con adipiscing elit, sed diam nonu.</p>
-                        </div>
-                        <div class="buy-option">
-                            <div class="saling">
-                                <span class="old-price"><del>$14.99</del></span>
-                                <span class="new-price">$8.99</span>
-                            </div>
-                            <a href="#">ADD TO CART</a>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <div class="body-album">
-                        <img src="out/img/album4sale.png" alt="album cover">
-                        <div class="album-title">
-                            <p>Rosenrot</p>
-                            <span>by Artist</span>
-                        </div>
-                        <div class="rating-album">
-                            <img src="out/img/stars.png" alt="rating">
-                        </div>
-                        <div class="description-album">
-                            <p><b>Lorem ipsum</b> dolor sit amet,con adipiscing elit, sed diam nonu.</p>
-                        </div>
-                        <div class="buy-option">
-                            <div class="saling">
-                                <span class="old-price"><del>$14.99</del></span>
-                                <span class="new-price">$8.99</span>
-                            </div>
-                            <a href="#">ADD TO CART</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            </div>
-            <div class="albums">
-                <div class="head-albums">
-                    <span>ALBUMS CURRENTLY ON SALE</span>
-                    <img src="out/img/shape-short.png" alt="">
-                    <button><img src="out/img/arrow-back.png" alt=""></button>
-                    <button><img src="out/img/arrow-forward.png" alt=""></button>
-                </div>
-                <div class="albums-content">
+                <div class="albums-content albums-regular">
                     <div>
                         <div class="body-album">
-                            <img src="out/img/album1sale.png" alt="album cover">
-                            <div class="album-title">
-                                <p>Caribou</p>
-                                <span>by Artist</span>
-                            </div>
-                            <div class="rating-album">
-                                <img src="out/img/stars.png" alt="rating">
-                            </div>
-                            <div class="description-album">
-                                <p><b>Lorem ipsum</b> dolor sit amet,con adipiscing elit, sed diam nonu.</p>
-                            </div>
-                            <div class="buy-option">
-                                <div class="saling">
-                                    <span class="old-price"><del>$14.99</del></span>
-                                    <span class="new-price">$8.99</span>
+                            <div class="hover-album">
+                                <img src="out/img/album1.png" alt="album cover">
+                                <div class="tracklist">
+                                    <div class="track-title">
+                                        <span>1.</span>
+                                        <span>Track Title 1</span>
+                                        <span>4:22</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>2.</span>
+                                        <span>Track Title 2</span>
+                                        <span>3:12</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>3.</span>
+                                        <span>Track Title 3</span>
+                                        <span>2:56</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>4.</span>
+                                        <span>Track Title 4</span>
+                                        <span>8:35</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>5.</span>
+                                        <span>Track Title 5</span>
+                                        <span>2:16</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>6.</span>
+                                        <span>Track Title 6</span>
+                                        <span>2:37</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>7.</span>
+                                        <span>Track Title 7</span>
+                                        <span>6:18</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>8.</span>
+                                        <span>Track Title 8</span>
+                                        <span>5:58</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>9.</span>
+                                        <span>Track Title 9</span>
+                                        <span>4:47</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
                                 </div>
-                                <a href="#">ADD TO CART</a>
                             </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="body-album">
-                            <img src="out/img/album2sale.png" alt="album cover">
-                            <div class="album-title">
-                                <p>Aqualung</p>
-                                <span>by Artist</span>
-                            </div>
-                            <div class="rating-album">
-                                <img src="out/img/stars.png" alt="rating">
-                            </div>
-                            <div class="description-album">
-                                <p><b>Lorem ipsum</b> dolor sit amet,con adipiscing elit, sed diam nonu.</p>
-                            </div>
-                            <div class="buy-option">
-                                <div class="saling">
-                                    <span class="old-price"><del>$14.99</del></span>
-                                    <span class="new-price">$8.99</span>
-                                </div>
-                                <a href="#">ADD TO CART</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="body-album">
-                            <img src="out/img/album3sale.png" alt="album cover">
-                            <div class="album-title">
-                                <p>Strange to ears</p>
-                                <span>by Artist</span>
-                            </div>
-                            <div class="rating-album">
-                                <img src="out/img/stars.png" alt="rating">
-                            </div>
-                            <div class="description-album">
-                                <p><b>Lorem ipsum</b> dolor sit amet,con adipiscing elit, sed diam nonu.</p>
-                            </div>
-                            <div class="buy-option">
-                                <div class="saling">
-                                    <span class="old-price"><del>$14.99</del></span>
-                                    <span class="new-price">$8.99</span>
-                                </div>
-                                <a href="#">ADD TO CART</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="body-album">
-                            <img src="out/img/album4sale.png" alt="album cover">
-                            <div class="album-title">
-                                <p>Rosenrot</p>
-                                <span>by Artist</span>
-                            </div>
-                            <div class="rating-album">
-                                <img src="out/img/stars.png" alt="rating">
-                            </div>
-                            <div class="description-album">
-                                <p><b>Lorem ipsum</b> dolor sit amet,con adipiscing elit, sed diam nonu.</p>
-                            </div>
-                            <div class="buy-option">
-                                <div class="saling">
-                                    <span class="old-price"><del>$14.99</del></span>
-                                    <span class="new-price">$8.99</span>
-                                </div>
-                                <a href="#">ADD TO CART</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="body-album">
-                            <img src="out/img/album1.png" alt="album cover">
                             <div class="album-title">
                                 <p>Oh my Deer</p>
                                 <span>by Artist</span>
                             </div>
                             <div class="rating-album">
-                                <img src="out/img/stars.png" alt="rating">
+                                <div class="star-rating">
+                                    <i class="fas fa-star active-star"></i>
+                                    <i class="fas fa-star active-star"></i>
+                                    <i class="fas fa-star active-star"></i>
+                                    <i class="fas fa-star active-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
                             </div>
                             <div class="description-album">
                                 <p><b>Lorem ipsum</b> dolor sit amet,con adipiscing elit, sed diam nonu.</p>
@@ -430,13 +257,77 @@
                     </div>
                     <div>
                         <div class="body-album">
-                            <img src="out/img/album2.png" alt="album cover">
+                            <div class="hover-album">
+                                <img src="out/img/album2.png" alt="album cover">
+                                <div class="tracklist">
+                                    <div class="track-title">
+                                        <span>1.</span>
+                                        <span>Track Title 1</span>
+                                        <span>4:22</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>2.</span>
+                                        <span>Track Title 2</span>
+                                        <span>3:12</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>3.</span>
+                                        <span>Track Title 3</span>
+                                        <span>2:56</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>4.</span>
+                                        <span>Track Title 4</span>
+                                        <span>8:35</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>5.</span>
+                                        <span>Track Title 5</span>
+                                        <span>2:16</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>6.</span>
+                                        <span>Track Title 6</span>
+                                        <span>2:37</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>7.</span>
+                                        <span>Track Title 7</span>
+                                        <span>6:18</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>8.</span>
+                                        <span>Track Title 8</span>
+                                        <span>5:58</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>9.</span>
+                                        <span>Track Title 9</span>
+                                        <span>4:47</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
                             <div class="album-title">
                                 <p>Awaken the Hero</p>
                                 <span>by Artist</span>
                             </div>
                             <div class="rating-album">
-                                <img src="out/img/stars.png" alt="rating">
+                                <div class="star-rating">
+                                    <i class="fas fa-star active-star"></i>
+                                    <i class="fas fa-star active-star"></i>
+                                    <i class="fas fa-star active-star"></i>
+                                    <i class="fas fa-star active-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
                             </div>
                             <div class="description-album">
                                 <p><b>Lorem ipsum</b> dolor sit amet,con adipiscing elit, sed diam nonu.</p>
@@ -446,17 +337,80 @@
                                 <a href="#">ADD TO CART</a>
                             </div>
                         </div>
-
                     </div>
                     <div>
                         <div class="body-album">
-                            <img src="out/img/album3.png" alt="album cover">
+                            <div class="hover-album">
+                                <img src="out/img/album3.png" alt="album cover">
+                                <div class="tracklist">
+                                    <div class="track-title">
+                                        <span>1.</span>
+                                        <span>Track Title 1</span>
+                                        <span>4:22</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>2.</span>
+                                        <span>Track Title 2</span>
+                                        <span>3:12</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>3.</span>
+                                        <span>Track Title 3</span>
+                                        <span>2:56</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>4.</span>
+                                        <span>Track Title 4</span>
+                                        <span>8:35</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>5.</span>
+                                        <span>Track Title 5</span>
+                                        <span>2:16</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>6.</span>
+                                        <span>Track Title 6</span>
+                                        <span>2:37</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>7.</span>
+                                        <span>Track Title 7</span>
+                                        <span>6:18</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>8.</span>
+                                        <span>Track Title 8</span>
+                                        <span>5:58</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>9.</span>
+                                        <span>Track Title 9</span>
+                                        <span>4:47</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
                             <div class="album-title">
                                 <p>Bad dreams</p>
                                 <span>by Artist</span>
                             </div>
                             <div class="rating-album">
-                                <img src="out/img/stars.png" alt="rating">
+                                <div class="star-rating">
+                                    <i class="fas fa-star active-star"></i>
+                                    <i class="fas fa-star active-star"></i>
+                                    <i class="fas fa-star active-star"></i>
+                                    <i class="fas fa-star active-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
                             </div>
                             <div class="description-album">
                                 <p><b>Lorem ipsum</b> dolor sit amet,con adipiscing elit, sed diam nonu.</p>
@@ -469,13 +423,1109 @@
                     </div>
                     <div>
                         <div class="body-album">
-                            <img src="out/img/album4.png" alt="album cover">
+                            <div class="hover-album">
+                                <img src="out/img/album4.png" alt="album cover">
+                                <div class="tracklist">
+                                    <div class="track-title">
+                                        <span>1.</span>
+                                        <span>Track Title 1</span>
+                                        <span>4:22</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>2.</span>
+                                        <span>Track Title 2</span>
+                                        <span>3:12</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>3.</span>
+                                        <span>Track Title 3</span>
+                                        <span>2:56</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>4.</span>
+                                        <span>Track Title 4</span>
+                                        <span>8:35</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>5.</span>
+                                        <span>Track Title 5</span>
+                                        <span>2:16</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>6.</span>
+                                        <span>Track Title 6</span>
+                                        <span>2:37</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>7.</span>
+                                        <span>Track Title 7</span>
+                                        <span>6:18</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>8.</span>
+                                        <span>Track Title 8</span>
+                                        <span>5:58</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>9.</span>
+                                        <span>Track Title 9</span>
+                                        <span>4:47</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
                             <div class="album-title">
                                 <p>Ravenna</p>
                                 <span>by Artist</span>
                             </div>
                             <div class="rating-album">
-                                <img src="out/img/stars.png" alt="rating">
+                                <div class="star-rating">
+                                    <i class="fas fa-star active-star"></i>
+                                    <i class="fas fa-star active-star"></i>
+                                    <i class="fas fa-star active-star"></i>
+                                    <i class="fas fa-star active-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="description-album">
+                                <p><b>Lorem ipsum</b> dolor sit amet,con adipiscing elit, sed diam nonu.</p>
+                            </div>
+                            <div class="buy-option">
+                                <span>$22.99</span>
+                                <a href="#">ADD TO CART</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="body-album">
+                            <div class="hover-album">
+                                <img src="out/img/album1sale.png" alt="album cover">
+                                <div class="tracklist">
+                                    <div class="track-title">
+                                        <span>1.</span>
+                                        <span>Track Title 1</span>
+                                        <span>4:22</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>2.</span>
+                                        <span>Track Title 2</span>
+                                        <span>3:12</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>3.</span>
+                                        <span>Track Title 3</span>
+                                        <span>2:56</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>4.</span>
+                                        <span>Track Title 4</span>
+                                        <span>8:35</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>5.</span>
+                                        <span>Track Title 5</span>
+                                        <span>2:16</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>6.</span>
+                                        <span>Track Title 6</span>
+                                        <span>2:37</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>7.</span>
+                                        <span>Track Title 7</span>
+                                        <span>6:18</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>8.</span>
+                                        <span>Track Title 8</span>
+                                        <span>5:58</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>9.</span>
+                                        <span>Track Title 9</span>
+                                        <span>4:47</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="album-title">
+                                <p>Caribou</p>
+                                <span>by Artist</span>
+                            </div>
+                            <div class="rating-album">
+                                <div class="star-rating">
+                                    <i class="fas fa-star active-star"></i>
+                                    <i class="fas fa-star active-star"></i>
+                                    <i class="fas fa-star active-star"></i>
+                                    <i class="fas fa-star active-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="description-album">
+                                <p><b>Lorem ipsum</b> dolor sit amet,con adipiscing elit, sed diam nonu.</p>
+                            </div>
+                            <div class="buy-option">
+                                <div class="saling">
+                                    <span class="old-price"><del>$14.99</del></span>
+                                    <span class="new-price">$8.99</span>
+                                </div>
+                                <a href="#">ADD TO CART</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="body-album">
+                            <div class="hover-album">
+                                <img src="out/img/album2sale.png" alt="album cover">
+                                <div class="tracklist">
+                                    <div class="track-title">
+                                        <span>1.</span>
+                                        <span>Track Title 1</span>
+                                        <span>4:22</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>2.</span>
+                                        <span>Track Title 2</span>
+                                        <span>3:12</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>3.</span>
+                                        <span>Track Title 3</span>
+                                        <span>2:56</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>4.</span>
+                                        <span>Track Title 4</span>
+                                        <span>8:35</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>5.</span>
+                                        <span>Track Title 5</span>
+                                        <span>2:16</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>6.</span>
+                                        <span>Track Title 6</span>
+                                        <span>2:37</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>7.</span>
+                                        <span>Track Title 7</span>
+                                        <span>6:18</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>8.</span>
+                                        <span>Track Title 8</span>
+                                        <span>5:58</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>9.</span>
+                                        <span>Track Title 9</span>
+                                        <span>4:47</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="album-title">
+                                <p>Aqualung</p>
+                                <span>by Artist</span>
+                            </div>
+                            <div class="rating-album">
+                                <div class="star-rating">
+                                    <i class="fas fa-star active-star"></i>
+                                    <i class="fas fa-star active-star"></i>
+                                    <i class="fas fa-star active-star"></i>
+                                    <i class="fas fa-star active-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="description-album">
+                                <p><b>Lorem ipsum</b> dolor sit amet,con adipiscing elit, sed diam nonu.</p>
+                            </div>
+                            <div class="buy-option">
+                                <div class="saling">
+                                    <span class="old-price"><del>$14.99</del></span>
+                                    <span class="new-price">$8.99</span>
+                                </div>
+                                <a href="#">ADD TO CART</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="body-album">
+                            <div class="hover-album">
+                                <img src="out/img/album3sale.png" alt="album cover">
+                                <div class="tracklist">
+                                    <div class="track-title">
+                                        <span>1.</span>
+                                        <span>Track Title 1</span>
+                                        <span>4:22</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>2.</span>
+                                        <span>Track Title 2</span>
+                                        <span>3:12</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>3.</span>
+                                        <span>Track Title 3</span>
+                                        <span>2:56</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>4.</span>
+                                        <span>Track Title 4</span>
+                                        <span>8:35</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>5.</span>
+                                        <span>Track Title 5</span>
+                                        <span>2:16</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>6.</span>
+                                        <span>Track Title 6</span>
+                                        <span>2:37</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>7.</span>
+                                        <span>Track Title 7</span>
+                                        <span>6:18</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>8.</span>
+                                        <span>Track Title 8</span>
+                                        <span>5:58</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>9.</span>
+                                        <span>Track Title 9</span>
+                                        <span>4:47</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="album-title">
+                                <p>Strange to ears</p>
+                                <span>by Artist</span>
+                            </div>
+                            <div class="rating-album">
+                                <div class="star-rating">
+                                    <i class="fas fa-star active-star"></i>
+                                    <i class="fas fa-star active-star"></i>
+                                    <i class="fas fa-star active-star"></i>
+                                    <i class="fas fa-star active-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="description-album">
+                                <p><b>Lorem ipsum</b> dolor sit amet,con adipiscing elit, sed diam nonu.</p>
+                            </div>
+                            <div class="buy-option">
+                                <div class="saling">
+                                    <span class="old-price"><del>$14.99</del></span>
+                                    <span class="new-price">$8.99</span>
+                                </div>
+                                <a href="#">ADD TO CART</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="body-album">
+                            <div class="hover-album">
+                                <img src="out/img/album4sale.png" alt="album cover">
+                                <div class="tracklist">
+                                    <div class="track-title">
+                                        <span>1.</span>
+                                        <span>Track Title 1</span>
+                                        <span>4:22</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>2.</span>
+                                        <span>Track Title 2</span>
+                                        <span>3:12</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>3.</span>
+                                        <span>Track Title 3</span>
+                                        <span>2:56</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>4.</span>
+                                        <span>Track Title 4</span>
+                                        <span>8:35</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>5.</span>
+                                        <span>Track Title 5</span>
+                                        <span>2:16</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>6.</span>
+                                        <span>Track Title 6</span>
+                                        <span>2:37</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>7.</span>
+                                        <span>Track Title 7</span>
+                                        <span>6:18</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>8.</span>
+                                        <span>Track Title 8</span>
+                                        <span>5:58</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>9.</span>
+                                        <span>Track Title 9</span>
+                                        <span>4:47</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="album-title">
+                                <p>Rosenrot</p>
+                                <span>by Artist</span>
+                            </div>
+                            <div class="rating-album">
+                                <div class="star-rating">
+                                    <i class="fas fa-star active-star"></i>
+                                    <i class="fas fa-star active-star"></i>
+                                    <i class="fas fa-star active-star"></i>
+                                    <i class="fas fa-star active-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="description-album">
+                                <p><b>Lorem ipsum</b> dolor sit amet,con adipiscing elit, sed diam nonu.</p>
+                            </div>
+                            <div class="buy-option">
+                                <div class="saling">
+                                    <span class="old-price"><del>$14.99</del></span>
+                                    <span class="new-price">$8.99</span>
+                                </div>
+                                <a href="#">ADD TO CART</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="albums">
+                <div class="head-albums">
+                    <span>ALBUMS CURRENTLY ON SALE</span>
+                    <div class="album-buttons">
+                        <img src="out/img/shape-short.png" alt="shape" class="shape-short">
+                        <button class="button-prev2"><img src="out/img/arrow-back.png" alt=""></button>
+                        <button class="button-next2"><img src="out/img/arrow-forward.png" alt=""></button>
+                    </div>
+                </div>
+                <div class="albums-content albums-on-sale">
+                    <div>
+                        <div class="body-album">
+                            <div class="hover-album">
+                                <img src="out/img/album1sale.png" alt="album cover">
+                                <div class="tracklist">
+                                    <div class="track-title">
+                                        <span>1.</span>
+                                        <span>Track Title 1</span>
+                                        <span>4:22</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>2.</span>
+                                        <span>Track Title 2</span>
+                                        <span>3:12</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>3.</span>
+                                        <span>Track Title 3</span>
+                                        <span>2:56</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>4.</span>
+                                        <span>Track Title 4</span>
+                                        <span>8:35</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>5.</span>
+                                        <span>Track Title 5</span>
+                                        <span>2:16</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>6.</span>
+                                        <span>Track Title 6</span>
+                                        <span>2:37</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>7.</span>
+                                        <span>Track Title 7</span>
+                                        <span>6:18</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>8.</span>
+                                        <span>Track Title 8</span>
+                                        <span>5:58</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>9.</span>
+                                        <span>Track Title 9</span>
+                                        <span>4:47</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="album-title">
+                                <p>Caribou</p>
+                                <span>by Artist</span>
+                            </div>
+                            <div class="rating-album">
+                                <div class="star-rating">
+                                    <i class="fas fa-star active-star"></i>
+                                    <i class="fas fa-star active-star"></i>
+                                    <i class="fas fa-star active-star"></i>
+                                    <i class="fas fa-star active-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="description-album">
+                                <p><b>Lorem ipsum</b> dolor sit amet,con adipiscing elit, sed diam nonu.</p>
+                            </div>
+                            <div class="buy-option">
+                                <div class="saling">
+                                    <span class="old-price"><del>$14.99</del></span>
+                                    <span class="new-price">$8.99</span>
+                                </div>
+                                <a href="#">ADD TO CART</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="body-album">
+                            <div class="hover-album">
+                                <img src="out/img/album2sale.png" alt="album cover">
+                                <div class="tracklist">
+                                    <div class="track-title">
+                                        <span>1.</span>
+                                        <span>Track Title 1</span>
+                                        <span>4:22</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>2.</span>
+                                        <span>Track Title 2</span>
+                                        <span>3:12</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>3.</span>
+                                        <span>Track Title 3</span>
+                                        <span>2:56</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>4.</span>
+                                        <span>Track Title 4</span>
+                                        <span>8:35</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>5.</span>
+                                        <span>Track Title 5</span>
+                                        <span>2:16</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>6.</span>
+                                        <span>Track Title 6</span>
+                                        <span>2:37</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>7.</span>
+                                        <span>Track Title 7</span>
+                                        <span>6:18</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>8.</span>
+                                        <span>Track Title 8</span>
+                                        <span>5:58</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>9.</span>
+                                        <span>Track Title 9</span>
+                                        <span>4:47</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="album-title">
+                                <p>Aqualung</p>
+                                <span>by Artist</span>
+                            </div>
+                            <div class="rating-album">
+                                <div class="star-rating">
+                                    <i class="fas fa-star active-star"></i>
+                                    <i class="fas fa-star active-star"></i>
+                                    <i class="fas fa-star active-star"></i>
+                                    <i class="fas fa-star active-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="description-album">
+                                <p><b>Lorem ipsum</b> dolor sit amet,con adipiscing elit, sed diam nonu.</p>
+                            </div>
+                            <div class="buy-option">
+                                <div class="saling">
+                                    <span class="old-price"><del>$14.99</del></span>
+                                    <span class="new-price">$8.99</span>
+                                </div>
+                                <a href="#">ADD TO CART</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="body-album">
+                            <div class="hover-album">
+                                <img src="out/img/album3sale.png" alt="album cover">
+                                <div class="tracklist">
+                                    <div class="track-title">
+                                        <span>1.</span>
+                                        <span>Track Title 1</span>
+                                        <span>4:22</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>2.</span>
+                                        <span>Track Title 2</span>
+                                        <span>3:12</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>3.</span>
+                                        <span>Track Title 3</span>
+                                        <span>2:56</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>4.</span>
+                                        <span>Track Title 4</span>
+                                        <span>8:35</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>5.</span>
+                                        <span>Track Title 5</span>
+                                        <span>2:16</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>6.</span>
+                                        <span>Track Title 6</span>
+                                        <span>2:37</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>7.</span>
+                                        <span>Track Title 7</span>
+                                        <span>6:18</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>8.</span>
+                                        <span>Track Title 8</span>
+                                        <span>5:58</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>9.</span>
+                                        <span>Track Title 9</span>
+                                        <span>4:47</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="album-title">
+                                <p>Strange to ears</p>
+                                <span>by Artist</span>
+                            </div>
+                            <div class="rating-album">
+                                <div class="star-rating">
+                                    <i class="fas fa-star active-star"></i>
+                                    <i class="fas fa-star active-star"></i>
+                                    <i class="fas fa-star active-star"></i>
+                                    <i class="fas fa-star active-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="description-album">
+                                <p><b>Lorem ipsum</b> dolor sit amet,con adipiscing elit, sed diam nonu.</p>
+                            </div>
+                            <div class="buy-option">
+                                <div class="saling">
+                                    <span class="old-price"><del>$14.99</del></span>
+                                    <span class="new-price">$8.99</span>
+                                </div>
+                                <a href="#">ADD TO CART</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="body-album">
+                            <div class="hover-album">
+                                <img src="out/img/album4sale.png" alt="album cover">
+                                <div class="tracklist">
+                                    <div class="track-title">
+                                        <span>1.</span>
+                                        <span>Track Title 1</span>
+                                        <span>4:22</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>2.</span>
+                                        <span>Track Title 2</span>
+                                        <span>3:12</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>3.</span>
+                                        <span>Track Title 3</span>
+                                        <span>2:56</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>4.</span>
+                                        <span>Track Title 4</span>
+                                        <span>8:35</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>5.</span>
+                                        <span>Track Title 5</span>
+                                        <span>2:16</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>6.</span>
+                                        <span>Track Title 6</span>
+                                        <span>2:37</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>7.</span>
+                                        <span>Track Title 7</span>
+                                        <span>6:18</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>8.</span>
+                                        <span>Track Title 8</span>
+                                        <span>5:58</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>9.</span>
+                                        <span>Track Title 9</span>
+                                        <span>4:47</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="album-title">
+                                <p>Rosenrot</p>
+                                <span>by Artist</span>
+                            </div>
+                            <div class="rating-album">
+                                <div class="star-rating">
+                                    <i class="fas fa-star active-star"></i>
+                                    <i class="fas fa-star active-star"></i>
+                                    <i class="fas fa-star active-star"></i>
+                                    <i class="fas fa-star active-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="description-album">
+                                <p><b>Lorem ipsum</b> dolor sit amet,con adipiscing elit, sed diam nonu.</p>
+                            </div>
+                            <div class="buy-option">
+                                <div class="saling">
+                                    <span class="old-price"><del>$14.99</del></span>
+                                    <span class="new-price">$8.99</span>
+                                </div>
+                                <a href="#">ADD TO CART</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="body-album">
+                            <div class="hover-album">
+                                <img src="out/img/album1.png" alt="album cover">
+                                <div class="tracklist">
+                                    <div class="track-title">
+                                        <span>1.</span>
+                                        <span>Track Title 1</span>
+                                        <span>4:22</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>2.</span>
+                                        <span>Track Title 2</span>
+                                        <span>3:12</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>3.</span>
+                                        <span>Track Title 3</span>
+                                        <span>2:56</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>4.</span>
+                                        <span>Track Title 4</span>
+                                        <span>8:35</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>5.</span>
+                                        <span>Track Title 5</span>
+                                        <span>2:16</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>6.</span>
+                                        <span>Track Title 6</span>
+                                        <span>2:37</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>7.</span>
+                                        <span>Track Title 7</span>
+                                        <span>6:18</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>8.</span>
+                                        <span>Track Title 8</span>
+                                        <span>5:58</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>9.</span>
+                                        <span>Track Title 9</span>
+                                        <span>4:47</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="album-title">
+                                <p>Oh my Deer</p>
+                                <span>by Artist</span>
+                            </div>
+                            <div class="rating-album">
+                                <div class="star-rating">
+                                    <i class="fas fa-star active-star"></i>
+                                    <i class="fas fa-star active-star"></i>
+                                    <i class="fas fa-star active-star"></i>
+                                    <i class="fas fa-star active-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="description-album">
+                                <p><b>Lorem ipsum</b> dolor sit amet,con adipiscing elit, sed diam nonu.</p>
+                            </div>
+                            <div class="buy-option">
+                                <span>$14.99</span>
+                                <a href="#">ADD TO CART</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="body-album">
+                            <div class="hover-album">
+                                <img src="out/img/album2.png" alt="album cover">
+                                <div class="tracklist">
+                                    <div class="track-title">
+                                        <span>1.</span>
+                                        <span>Track Title 1</span>
+                                        <span>4:22</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>2.</span>
+                                        <span>Track Title 2</span>
+                                        <span>3:12</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>3.</span>
+                                        <span>Track Title 3</span>
+                                        <span>2:56</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>4.</span>
+                                        <span>Track Title 4</span>
+                                        <span>8:35</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>5.</span>
+                                        <span>Track Title 5</span>
+                                        <span>2:16</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>6.</span>
+                                        <span>Track Title 6</span>
+                                        <span>2:37</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>7.</span>
+                                        <span>Track Title 7</span>
+                                        <span>6:18</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>8.</span>
+                                        <span>Track Title 8</span>
+                                        <span>5:58</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>9.</span>
+                                        <span>Track Title 9</span>
+                                        <span>4:47</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="album-title">
+                                <p>Awaken the Hero</p>
+                                <span>by Artist</span>
+                            </div>
+                            <div class="rating-album">
+                                <div class="star-rating">
+                                    <i class="fas fa-star active-star"></i>
+                                    <i class="fas fa-star active-star"></i>
+                                    <i class="fas fa-star active-star"></i>
+                                    <i class="fas fa-star active-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="description-album">
+                                <p><b>Lorem ipsum</b> dolor sit amet,con adipiscing elit, sed diam nonu.</p>
+                            </div>
+                            <div class="buy-option">
+                                <span>$17.59</span>
+                                <a href="#">ADD TO CART</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="body-album">
+                            <div class="hover-album">
+                                <img src="out/img/album3.png" alt="album cover">
+                                <div class="tracklist">
+                                    <div class="track-title">
+                                        <span>1.</span>
+                                        <span>Track Title 1</span>
+                                        <span>4:22</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>2.</span>
+                                        <span>Track Title 2</span>
+                                        <span>3:12</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>3.</span>
+                                        <span>Track Title 3</span>
+                                        <span>2:56</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>4.</span>
+                                        <span>Track Title 4</span>
+                                        <span>8:35</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>5.</span>
+                                        <span>Track Title 5</span>
+                                        <span>2:16</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>6.</span>
+                                        <span>Track Title 6</span>
+                                        <span>2:37</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>7.</span>
+                                        <span>Track Title 7</span>
+                                        <span>6:18</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>8.</span>
+                                        <span>Track Title 8</span>
+                                        <span>5:58</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>9.</span>
+                                        <span>Track Title 9</span>
+                                        <span>4:47</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="album-title">
+                                <p>Bad dreams</p>
+                                <span>by Artist</span>
+                            </div>
+                            <div class="rating-album">
+                                <div class="star-rating">
+                                    <i class="fas fa-star active-star"></i>
+                                    <i class="fas fa-star active-star"></i>
+                                    <i class="fas fa-star active-star"></i>
+                                    <i class="fas fa-star active-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="description-album">
+                                <p><b>Lorem ipsum</b> dolor sit amet,con adipiscing elit, sed diam nonu.</p>
+                            </div>
+                            <div class="buy-option">
+                                <span>$8.99</span>
+                                <a href="#">ADD TO CART</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="body-album">
+                            <div class="hover-album">
+                                <img src="out/img/album4.png" alt="album cover">
+                                <div class="tracklist">
+                                    <div class="track-title">
+                                        <span>1.</span>
+                                        <span>Track Title 1</span>
+                                        <span>4:22</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>2.</span>
+                                        <span>Track Title 2</span>
+                                        <span>3:12</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>3.</span>
+                                        <span>Track Title 3</span>
+                                        <span>2:56</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>4.</span>
+                                        <span>Track Title 4</span>
+                                        <span>8:35</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>5.</span>
+                                        <span>Track Title 5</span>
+                                        <span>2:16</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>6.</span>
+                                        <span>Track Title 6</span>
+                                        <span>2:37</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>7.</span>
+                                        <span>Track Title 7</span>
+                                        <span>6:18</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>8.</span>
+                                        <span>Track Title 8</span>
+                                        <span>5:58</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                    <div class="track-title">
+                                        <span>9.</span>
+                                        <span>Track Title 9</span>
+                                        <span>4:47</span>
+                                        <img src="out/img/volume-shape.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="album-title">
+                                <p>Ravenna</p>
+                                <span>by Artist</span>
+                            </div>
+                            <div class="rating-album">
+                                <div class="star-rating">
+                                    <i class="fas fa-star active-star"></i>
+                                    <i class="fas fa-star active-star"></i>
+                                    <i class="fas fa-star active-star"></i>
+                                    <i class="fas fa-star active-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
                             </div>
                             <div class="description-album">
                                 <p><b>Lorem ipsum</b> dolor sit amet,con adipiscing elit, sed diam nonu.</p>
@@ -508,7 +1558,7 @@
         <div class="head-footer">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-md-3">
+                    <div class="col-lg-3 col-md-6">
                         <p>Little about us</p>
                         <div class="footer-about-us">
                             <p><b>Sed posuere</b> consectetur est at. Nulla vitae elit libero, a pharetra. Lorem ipsum <b>dolor sit</b> amet, conse ctetuer adipiscing elit.</p>
@@ -522,37 +1572,94 @@
                             <a href="#"><i class="far fa-envelope"></i></a>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-lg-3 col-md-6">
                         <p>Our Archives</p>
                         <div class="month">
                             <a href="#" class="month-border">March 2019</a>
-                            <a href="#" class="month-border">February 2019</a>
-                            <a href="#" class="month-border">January 2019</a>
-                            <a href="#" >December 2018</a>
+                            <a href="#" class="month-border month-padding">February 2019</a>
+                            <a href="#" class="month-border month-padding">January 2019</a>
+                            <a href="#" class="month-padding">December 2018</a>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-lg-3 col-md-6">
                         <p>Popular Posts</p>
                         <div class="footer-album">
                             <div class="footer-great-album">
                                 <img src="out/img/footer-album1.png" alt="album">
                                 <div class="footer-description-album">
                                     <span>Great Album</span>
-                                    <a href="#"><i class="fas fa-comment-alt"></i> 3 COMMENTS</a>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal"><i class="fas fa-comment-alt"></i> 3 COMMENTS</button>
+                                    <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-body">
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                    <div class="great-album-comment">
+                                                        <a href="#">@ComentatorOdBoga</a>
+                                                        <span>Very nice album</span>
+                                                    </div>
+                                                    <div class="great-album-comment">
+                                                        <a href="#">@ComentatorOdBoga</a>
+                                                        <span>Very nice album</span>
+                                                    </div>
+                                                    <div class="great-album-comment">
+                                                        <a href="#">@ComentatorOdBoga</a>
+                                                        <span>Very nice album</span>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="footer-great-album">
                                 <img src="out/img/footer-album2.png" alt="album">
                                 <div class="footer-description-album">
                                     <span>Great Album</span>
-                                    <a href="#"><i class="fas fa-comment-alt"></i> 5 COMMENTS</a>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-comment-alt"></i> 5 COMMENTS</button>
+                                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-body">
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                    <div class="great-album-comment">
+                                                        <a href="#">@ComentatorOdBoga</a>
+                                                        <span>Very nice album</span>
+                                                    </div>
+                                                    <div class="great-album-comment">
+                                                        <a href="#">@ComentatorOdBoga</a>
+                                                        <span>Very nice album</span>
+                                                    </div>
+                                                    <div class="great-album-comment">
+                                                        <a href="#">@ComentatorOdBoga</a>
+                                                        <span>Very nice album</span>
+                                                    </div>
+                                                    <div class="great-album-comment">
+                                                        <a href="#">@ComentatorOdBoga</a>
+                                                        <span>Very nice album</span>
+                                                    </div>
+                                                    <div class="great-album-comment">
+                                                        <a href="#">@ComentatorOdBoga</a>
+                                                        <span>Very nice album</span>
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-lg-3 col-md-6">
                         <p>Search our Site</p>
-                        <input type="search" class="search-color" placeholder="Enter Search ...">
+                        <input type="search" name="searchitem" class="search-color" placeholder="Enter Search ...">
                         <p>Tag Cloud</p>
                         <div class="footer-tags">
                             <a href="#">Audio CD</a>
@@ -584,25 +1691,6 @@
     <script type="text/javascript" src="out/scripts/libs/bootstrap.min.js"></script>
     <script type="text/javascript" src="slick-1.8.1/slick/slick.min.js"></script>
     <script type="text/javascript" src="out/scripts/index.min.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function(){
-            $('.slider').slick({
-                centerMode: true,
-                slidesToShow: 1,
-                slidesToScroll: 1,
-
-                arrows: false,
-                speed: 500,
-            });
-            $('.albums-content').slick({
-                infinite: true,
-                variableWidth: true,
-                slidesToShow: 4,
-                slidesToScroll: 4,
-                arrows: false,
-            })
-        });
-    </script>
 </body>
 </html>
 

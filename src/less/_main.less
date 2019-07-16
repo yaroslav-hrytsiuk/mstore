@@ -1,0 +1,289 @@
+main {
+  background-image: url(../../out/img/background.jpg);
+  padding-bottom: 45px;
+  .slider {
+    padding: 20px 0;
+    div {
+      text-align: center;
+    }
+    img {
+      margin: auto;
+      width: 100%;
+    }
+    .slick-track{
+      width: 1600px !important;
+    }
+    .slick-slide.slick-center{
+      overflow: hidden;
+      width: 322px !important;
+      min-height: 429px;
+      min-width: unset;
+      img {
+        transform: scale(2) translate(19%,-23%);
+        width: auto;
+        margin: 0;
+      }
+    }
+    .slick-slide {
+      display: block;
+      min-width: 950px;
+      img{
+        margin: auto;
+        width: 100%;
+
+      }
+    }
+  }
+  .content {
+    max-width: 964px;
+    margin: 25px auto 0 auto;
+    .head-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      cursor: default;
+      p {
+        font-family: Ubuntu;
+        font-size: 36px;
+        margin: 16px 0;
+        span {
+          background-color: #cd3737;
+          color: #ffffff;
+          padding: 5px;
+        }
+      }
+    }
+    .buttons-ready {
+      display: flex;
+      justify-content: center;
+      margin: 37px 0;
+      .button {
+        background-color: #1e1e20;
+        color: white;
+        width: 300px;
+        height: 100px;
+        border-radius: 10px;
+        margin: 10px 0;
+        .button-head {
+          display: flex;
+          padding: 20px 0 5px 20px;
+          img {
+            padding-right: 10px;
+          }
+          span {
+            font-family: Ubuntu;
+            font-weight: normal;
+            font-size: 18px;
+          }
+        }
+        .button-text {
+          font-family: Ubuntu;
+          font-weight: normal;
+          font-size: 13px;
+          padding-left: 20px;
+        }
+        &:hover {
+          background-color: #cc3333;
+          cursor: pointer;
+        }
+      }
+      .button-middle {
+        margin: 10px 30px;
+      }
+    }
+    .albums {
+      margin: 47px 0;
+      .head-albums {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 14px;
+        .shape-short {
+          width: 588px;
+          height: 7px;
+        }
+        span {
+          font-family: Ubuntu;
+          font-size: 24px;
+        }
+        img {
+          line-height: 0;
+        }
+        .album-buttons {
+          display: flex;
+          align-items: center;
+          button {
+            border: none;
+            padding: 0;
+            margin: 1px;
+            line-height: 0;
+            &:active {
+              border: none;
+              outline: none;
+              decoration: none;
+            }
+          }
+        }
+      }
+      .albums-content {
+        .slick-list {
+          .slick-track {
+            padding-bottom: 3px;
+          }
+        }
+        div {
+          display: flex;
+          justify-content: center;
+          .body-album {
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            background-color: white;
+            border-radius: 5px;
+            margin: 0 5px;
+            max-width: 235px;
+            padding-bottom: 10px;
+            box-shadow: -1px 2px 3px rgba(0, 0, 0, 0.5);
+            .hover-album {
+              width: 230px;
+              height: 230px;
+              &:hover {
+                .tracklist {
+                  display: block;
+                }
+              }
+              .tracklist {
+                position: absolute;
+                display: none;
+                flex-direction: column;
+                top: 4px;
+                left: 0;
+                background-color: rgba(0, 0, 0, 0.7);
+                color: #ffffff;
+                padding: 10px;
+                overflow-y: scroll;
+                width: 230px;
+                height: 222px;
+                border-radius: 5px;
+                &::-webkit-scrollbar {
+                  width: 2px;
+                }
+                .track-title {
+                  display: flex;
+                  align-items: center;
+                  justify-content: flex-start;
+                  font-size: 12px;
+                  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+                  span {
+                    padding: 6px 8px;
+                  }
+                  img {
+                    margin-left: 8px;
+                    width: 30px;
+                    height: 10px;
+                  }
+                }
+              }
+            }
+            .album-title {
+              display: flex;
+              align-items: center;
+              justify-content: flex-start;
+              padding: 10px 20px;
+              p {
+                font-family: Ubuntu;
+                font-weight: bold;
+                font-size: 14px;
+                margin: 0;
+              }
+              span {
+                font-family: Ubuntu;
+                font-style: italic;
+                font-size: 12px;
+                padding-left: 20px;
+              }
+            }
+            .rating-album {
+              display: flex;
+              justify-content: flex-start;
+              padding: 0 0 10px 20px;
+              .star-rating {
+                font-size: 12px;
+                .active-star {
+                  color: #cc3333
+                }
+                &:hover {
+                  cursor: default;
+                }
+              }
+            }
+            .description-album {
+              font-family: Ubuntu;
+              font-size: 13px;
+              padding: 0 20px;
+              line-height: 20px;
+            }
+            .buy-option {
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              padding: 0 20px;
+              span {
+                font-family: Ubuntu;
+                font-weight: bold;
+                font-size: 18px;
+              }
+              a {
+                list-style: none;
+                text-decoration: none;
+                background-color: #1e1e20;
+                color: white;
+                font-family: Ubuntu;
+                font-size: 10px;
+                padding: 5px 10px;
+                border-radius: 10px;
+              }
+              .saling {
+                .old-price {
+                  font-family: Ubuntu;
+                  font-weight: bold;
+                  font-size: 15px;
+                  padding-right: 10px;
+                }
+                .new-price {
+                  font-family: Ubuntu;
+                  font-weight: bold;
+                  font-size: 15px;
+                  background-color: #cc3333;
+                  color: #fff;
+                  padding: 0 2px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .our-publishers {
+      .important-publishers {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        span {
+          font-family: Ubuntu;
+          font-size: 24px;
+        }
+        img {
+          line-height: 0;
+          width: 560px;
+          height: 7px;
+        }
+      }
+      .publishers {
+        display: flex;
+        justify-content: center;
+        margin: 20px 0;
+      }
+    }
+  }
+}
